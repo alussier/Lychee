@@ -29,7 +29,7 @@ view.albums = {
 			let albumsData = ''
 
 			// Smart Albums
-			if (lychee.publicMode===false) {
+			if (false) {
 
 				albums.parse(albums.json.smartalbums.unsorted)
 				albums.parse(albums.json.smartalbums.public)
